@@ -1,0 +1,78 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.container {
+    max-width: 800px;
+    margin: auto;
+    padding: 20px;
+}
+
+.title {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+}
+
+.body-text {
+    font-size: 16px;
+    margin-bottom: 20px;
+}
+
+.body-textt {
+    font-size: 12px;
+    margin-bottom: 20px;
+    opacity: 0.5;
+}
+
+input[type="text"],
+textarea {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    box-sizing: border-box;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+
+.button {
+    background-color: #007bff;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #0056b3;
+    color: white;
+}
+
+
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+.comment {
+    background-color: #d3d3d3;
+    padding: 10px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+
+.comment strong {
+    font-size: 14px;
+    color: #333;
+}
+
+.comment p {
+    font-size: 14px;
+    margin-top: 5px;
+}
